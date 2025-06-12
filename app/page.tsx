@@ -64,11 +64,11 @@ export default function Portfolio() {
           <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">프로젝트</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {/* 운기조식 GIOSK 프로젝트 */}
-            <Card className="w-[400px] h-[500px] flex flex-col shadow-lg hover:shadow-xl transition-all duration-300 border-0">
+            <Card className="shadow-lg hover:shadow-xl transition-all duration-300 border-0 h-full flex flex-col">
               <CardHeader className="bg-gradient-to-r from-green-50 to-emerald-50 rounded-t-lg">
                 <div className="flex flex-col gap-4">
                   <div>
-                    <CardTitle className="text-xl font-bold text-gray-900 mb-2 break-keep">
+                    <CardTitle className="text-xl font-bold text-gray-900 mb-2 whitespace-nowrap">
                       운기조식 GIOSK – 카페 키오스크 시스템
                     </CardTitle>
                     <div className="flex items-center text-sm text-gray-600">
@@ -76,7 +76,7 @@ export default function Portfolio() {
                       <span>2025.03.31 ~ 2025.04.16</span>
                     </div>
                     <div className="flex items-center text-sm text-gray-600 mt-1">
-                      <span>팀 인원: 5명</span>
+                      <span>팀 규모: 5명</span>
                     </div>
                   </div>
                 </div>
@@ -140,11 +140,11 @@ export default function Portfolio() {
             </Card>
 
             {/* 최후의 만찬 프로젝트 */}
-            <Card className="w-[400px] h-[500px] flex flex-col shadow-lg hover:shadow-xl transition-all duration-300 border-0">
+            <Card className="shadow-lg hover:shadow-xl transition-all duration-300 border-0 h-full flex flex-col">
               <CardHeader className="bg-gradient-to-r from-red-50 to-orange-50 rounded-t-lg">
                 <div className="flex flex-col gap-4">
                   <div>
-                    <CardTitle className="text-xl font-bold text-gray-900 mb-2 break-keep">
+                    <CardTitle className="text-xl font-bold text-gray-900 mb-2">
                       최후의 만찬 – 식당 웨이팅 시스템
                     </CardTitle>
                     <div className="flex items-center text-sm text-gray-600">
@@ -152,7 +152,7 @@ export default function Portfolio() {
                       <span>2025.04.17 ~ 2025.05.09</span>
                     </div>
                     <div className="flex items-center text-sm text-gray-600 mt-1">
-                      <span>팀 인원: 5명</span>
+                      <span>팀 규모: 5명</span>
                     </div>
                   </div>
                 </div>
@@ -214,11 +214,11 @@ export default function Portfolio() {
             </Card>
 
             {/* 마키 프로젝트 */}
-            <Card className="w-[400px] h-[500px] flex flex-col shadow-lg hover:shadow-xl transition-all duration-300 border-0">
+            <Card className="shadow-lg hover:shadow-xl transition-all duration-300 border-0 h-full flex flex-col">
               <CardHeader className="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-t-lg">
                 <div className="flex flex-col gap-4">
                   <div>
-                    <CardTitle className="text-xl font-bold text-gray-900 mb-2 break-keep">
+                    <CardTitle className="text-xl font-bold text-gray-900 mb-2">
                       마키 – AI 데이트 코스 추천 서비스
                     </CardTitle>
                     <div className="flex items-center text-sm text-gray-600">
@@ -226,7 +226,7 @@ export default function Portfolio() {
                       <span>2025.05.12 ~ 2025.06.10</span>
                     </div>
                     <div className="flex items-center text-sm text-gray-600 mt-1">
-                      <span>팀 인원: 5명</span>
+                      <span>팀 인원 : 5명</span>
                     </div>
                   </div>
                 </div>
@@ -330,8 +330,8 @@ export default function Portfolio() {
 
       {/* Footer */}
       <footer className="bg-white border-t mt-16">
-        <div className="max-w-6xl mx-auto px-6 py-8">
-          <p className="text-center text-gray-600">© 2025 예비 백엔드 지원자 함규상. All rights reserved.</p>
+        <div className="max-w-6xl mx-auto px-12 py-8">
+          <p className="text-center text-gray-600">© 2025 예비 백엔드 개발자 함규상. All rights reserved.</p>
         </div>
       </footer>
     </div>
