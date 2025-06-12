@@ -76,7 +76,7 @@ export default function Portfolio() {
                       <span>2025.03.31 ~ 2025.04.16</span>
                     </div>
                     <div className="flex items-center text-sm text-gray-600 mt-1">
-                      <span>팀 규모: 5명</span>
+                      <span>팀 인원: 5명</span>
                     </div>
                   </div>
                 </div>
@@ -152,7 +152,7 @@ export default function Portfolio() {
                       <span>2025.04.17 ~ 2025.05.09</span>
                     </div>
                     <div className="flex items-center text-sm text-gray-600 mt-1">
-                      <span>팀 규모: 5명</span>
+                      <span>팀 인원: 5명</span>
                     </div>
                   </div>
                 </div>
@@ -172,15 +172,7 @@ export default function Portfolio() {
                       </li>
                       <li className="flex items-start">
                         <span className="inline-block w-1.5 h-1.5 bg-red-500 rounded-full mt-1.5 mr-2 flex-shrink-0"></span>
-                        Redis를 도입하여 대기 설정 값을 캐싱 → 응답 속도 48.5% 개선
-                      </li>
-                      <li className="flex items-start">
-                        <span className="inline-block w-1.5 h-1.5 bg-red-500 rounded-full mt-1.5 mr-2 flex-shrink-0"></span>
-                        대기열 요청 처리에서 Redis Atomic 연산 및 Queue 적용
-                      </li>
-                      <li className="flex items-start">
-                        <span className="inline-block w-1.5 h-1.5 bg-red-500 rounded-full mt-1.5 mr-2 flex-shrink-0"></span>
-                        트래픽 부하 테스트 결과, 최대 응답 시간 233ms → 11ms로 개선
+                        자주 조회되는 설정 데이터를 Redis에 캐싱하여 응답 속도 개선 
                       </li>
                     </ul>
                   </div>
@@ -234,7 +226,7 @@ export default function Portfolio() {
                       <span>2025.05.12 ~ 2025.06.10</span>
                     </div>
                     <div className="flex items-center text-sm text-gray-600 mt-1">
-                      <span>팀 규모: 5명</span>
+                      <span>팀 인원: 5명</span>
                     </div>
                   </div>
                 </div>
