@@ -331,7 +331,7 @@ export default function Portfolio() {
       {/* Footer */}
       <footer className="bg-white border-t mt-16">
         <div className="max-w-6xl mx-auto px-6 py-8">
-          <p className="text-center text-gray-600">© 2025 함규상. All rights reserved.</p>
+          <p className="text-center text-gray-600">© 2025 예비 백엔드 지원자 함규상. All rights reserved.</p>
         </div>
       </footer>
     </div>
