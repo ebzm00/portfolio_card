@@ -13,8 +13,8 @@ export default function Portfolio() {
             <h1 className="text-4xl md:text-5xl font-bold text-gray-900">함규상</h1>
             <p className="text-xl md:text-2xl text-blue-600 font-semibold">Spring Boot 기반 백엔드 개발자</p>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto leading-relaxed">
-              API 설계와 외부 API 연동에 강점을 가진 개발자입니다. 효율적인 서비스 오케스트레이션을 통해 사용자 중심의
-              백엔드 솔루션을 구축합니다.
+              2년간 ERP 솔루션 개발자로 재직하며 다양한 고객사의 요구사항을 분석하고 시스템에 구현해왔습니다.
+              현재는 백엔드 개발자를 꿈꾸며, API 설계와 외부 API 연동을 한 경험을 바탕으로 사용자 중심의 백엔드 솔루션을 구축하고자 합니다.
             </p>
           </div>
         </div>
@@ -68,7 +68,7 @@ export default function Portfolio() {
               <CardHeader className="bg-gradient-to-r from-green-50 to-emerald-50 rounded-t-lg">
                 <div className="flex flex-col gap-4">
                   <div>
-                    <CardTitle className="text-xl font-bold text-gray-900 mb-2">
+                    <CardTitle className="text-xl font-bold text-gray-900 mb-2 whitespace-nowrap">
                       운기조식 GIOSK – 카페 키오스크 시스템
                     </CardTitle>
                     <div className="flex items-center text-sm text-gray-600">
@@ -79,9 +79,6 @@ export default function Portfolio() {
                       <span>팀 규모: 5명</span>
                     </div>
                   </div>
-                  <Badge className="bg-green-100 text-green-800 hover:bg-green-200 w-fit">
-                    상품 도메인 백엔드 개발
-                  </Badge>
                 </div>
               </CardHeader>
 
@@ -158,9 +155,6 @@ export default function Portfolio() {
                       <span>팀 규모: 5명</span>
                     </div>
                   </div>
-                  <Badge className="bg-red-100 text-red-800 hover:bg-red-200 w-fit">
-                    웨이팅 기능 전담 백엔드 개발자
-                  </Badge>
                 </div>
               </CardHeader>
 
@@ -243,9 +237,6 @@ export default function Portfolio() {
                       <span>팀 규모: 5명</span>
                     </div>
                   </div>
-                  <Badge className="bg-blue-100 text-blue-800 hover:bg-blue-200 w-fit">
-                    지하철 경로 탐색 기능 전담
-                  </Badge>
                 </div>
               </CardHeader>
 
